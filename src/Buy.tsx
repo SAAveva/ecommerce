@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import BuyButtonImage from './buy-button.jpg';
 
 const Buy = () => {
 
-    return <div className="buy">
-        <Link to="/buy">Buy</Link>
+    return <div className="buy" style={{textAlign: 'center'}}>
+        <img src={BuyButtonImage} alt="buy button" />
     </div>
 }
 
